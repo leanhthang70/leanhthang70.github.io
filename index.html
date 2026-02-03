@@ -237,18 +237,19 @@ Trong suốt hơn một thập kỷ qua, đại số các hộ kinh doanh nộp 
 
 > **Dữ liệu thị trường:** Khoảng cách giữa số hộ phải nộp thuế và số hộ thực hiện kê khai bài bản còn rất lớn. Đây là cơ hội cho một công cụ tinh gọn giúp chủ tiệm vừa bán hàng, vừa đáp ứng tốt các quy định mới một cách nhẹ nhàng nhất.
 
-#### 1.2. Nỗi Đau Vận Hành: "Lỗ Nhỏ Đắm Thuyền"
+#### 1.2. Thách Thức Trong Quản Trị Vận Hành
 
-Bên cạnh áp lực bên ngoài, nội tại các mô hình F&B truyền thống đang bị bào mòn bởi:
+Ngoài áp lực pháp lý, các mô hình F&B và Bán lẻ quy mô vừa và nhỏ đang đối mặt với những bài toán nội tại khó giải quyết triệt để bằng phương pháp thủ công:
 
-*   **Ma Trận Gian Lận:** Thống kê chỉ ra **95% nhà hàng** từng bị thất thoát do nhân viên. Các thủ thuật phổ biến bao gồm: Hủy hóa đơn (Void fraud), "Đá Bill" quay vòng hóa đơn, và bán hàng không nhập máy.
-*   **Điểm Mù Về Tồn Kho:** Tỷ lệ lãng phí thực phẩm tại Việt Nam lên tới **25% tổng sản lượng**. Các chủ cửa hàng thường thiếu định mức (Recipe) chuẩn và gặp khó khăn khi giá vốn (COGS) biến động theo ngày.
+*   **Khó kiểm soát thất thoát:** Việc thiếu cơ chế đối soát tự động giữa kho hàng và doanh thu thực tế dẫn đến những sai số khó phát hiện. Các vấn đề như nhầm lẫn trong ghi đơn, hủy hóa đơn không kiểm soát hay thất thoát hàng hóa trên mỗi đơn hàng vẫn là "vùng xám" gây ảnh hưởng trực tiếp đến lợi nhuận ròng.
+*   **Tối ưu hóa chi phí và tồn kho:** Việc quản lý định mức (Recipe) thủ công khiến chủ cửa hàng khó nắm bắt chính xác giá vốn hàng bán (COGS) khi giá thị trường biến động. Thiếu dữ liệu tồn kho thời gian thực dẫn đến tình trạng không tối ưu được vòng quay vốn hàng hóa (vừa gây lãng phí do hết hạn, vừa gây mất cơ hội bán hàng khi thiếu hụt).
+*   **Sự phụ thuộc vào sự hiện diện của chủ quán:** Do thiếu hệ thống báo cáo minh bạch và tức thì, chủ cửa hàng thường phải có mặt trực tiếp để giám sát. Điều này làm hạn chế khả năng mở rộng quy mô (Scale-up) của doanh nghiệp.
 
 #### 1.3. Phân Tích Đối Thủ Cạnh Tranh & Khoảng Trống Thị Trường
 
 Thị trường hiện nay đang tồn tại một khoảng trống lớn giữa các phần mềm bán hàng đơn giản và các hệ thống quản trị cồng kềnh. Giải pháp của tôi sinh ra để lấp đầy khoảng trống đó.
 
-| Tiêu chí so sánh | POS Phổ thông (KiotViet, Sapo, iPOS) | Hệ thống ERP/Kế toán (SAP, MISA, Oracle) | Giải pháp Đề xuất (**Lean ERP cho F&B & Retail**) |
+| Tiêu chí so sánh | POS Phổ thông (KiotViet, Sapo, iPOS) | Hệ thống ERP/Kế toán (SAP, MISA, Oracle) | Giải pháp Đề xuất (**Hệ thống quản lý cho F&B & Retail**) |
 | :--- | :--- | :--- | :--- |
 | **Triết lý sản phẩm** | **Ghi nhận giao dịch**. Tập trung vào tốc độ thanh toán tại quầy. | **Tuân thủ & Đối soát**. Tập trung vào quy trình kế toán chuẩn mực. | **Kiểm soát & Tối ưu**. Tập trung vào bảo vệ dòng tiền và cảnh báo thất thoát của chủ cửa hàng. |
 | **Năng lực quản trị** | Sơ sài. Chỉ có báo cáo doanh thu cơ bản, thiếu chiều sâu về P&L và định mức thực tế. | Rất sâu. Nhưng đòi hỏi nhân sự trình độ cao để vận hành, quy trình cực kỳ phức tạp. | **Sâu & Tinh gọn**. Mang nghiệp vụ ERP (quản lý tồn kho đa cấp, P&L thời gian thực) vào giao diện cảm ứng dễ dùng. |
@@ -264,25 +265,29 @@ Thị trường hiện nay đang tồn tại một khoảng trống lớn giữa
 
 Toàn bộ hệ thống được xây dựng trên triết lý **"Phức tạp để bên trong, đơn giản cho người dùng"**. Tôi tập trung vào việc quản lý hàng hóa và dòng tiền một cách thực chất nhất.
 
-#### 2.1. Lõi Công Nghệ & Các Module Trọng Tâm
+#### 2.1. Các Module Trọng Tâm
 
-Sản phẩm được thiết kế theo kiến trúc **Micro-modular** giải quyết 3 bài toán: **Tiền đâu? Hàng đâu? Lãi bao nhiêu?**
+Sản phẩm được thiết kế theo kiến trúc **Micro-modular** giải quyết 4 bài toán cốt lõi: **Tiền – Hàng – Khách – Lãi**.
 
-*   **Module 1: Quản trị Tài chính & Dòng tiền Thực:**
-    *   *Sổ quỹ 2 lớp:* Tách biệt tiền mặt tại quầy và ví của chủ cửa hàng.
-    *   *Báo cáo P&L theo ca:* Tính toán lãi lỗ tạm tính ngay khi kết ca dựa trên giá vốn trung bình.
-*   **Module 2: Kho & Hàng Hóa Thông Minh:**
-    *   *Quản lý SKU & Mã vạch:* Tối ưu cho tiệm tạp hóa, siêu thị mini với khả năng quét mã nhanh, nhập liệu hàng loạt và quản lý tồn kho theo nhiều đơn vị tính.
-    *   *Recipe đa cấp (F&B):* Tự động trừ kho nguyên liệu (trà, sữa, ly, ống hút) khi bán sản phẩm chế biến.
-    *   *Kiểm kê mù (Blind Count):* Nhân viên không biết số lý thuyết, giúp ngăn chặn gian lận.
-    *   *Cảnh báo nhập hàng:* Dựa trên tốc độ tiêu thụ trung bình (Average Consumption Rate).
-*   **Module 3: POS & Bán hàng Đa kênh:**
-    *   *Tích hợp E-Invoice:* Tự động đẩy dữ liệu lên cơ quan thuế chuẩn Nghị định 123.
-    *   *Chế độ Offline-first:* Đảm bảo bán hàng, in bill liên tục cả khi mất mạng.
-*   **Module 4: Phân tích Tài chính & Nhân sự Tinh gọn:**
-    *   *Báo cáo phân tích thông minh:* Tự động tổng hợp dữ liệu bán hàng để đưa ra các chỉ số về xu hướng, dự báo và tối ưu hóa chi phí vận hành.
-    *   *Quản trị nhân sự & Chấm công:* Tích hợp hệ thống chấm công, quản lý ca làm việc và tự động tính lương/hoa hồng dựa trên hiệu suất thực tế.
-    *   *Báo cáo tài chính Owner-centric:* Tập trung vào các chỉ số "sống còn" (P&L, Cashflow) giúp chủ cửa hàng ra quyết định dựa trên dữ liệu thật.
+*   **Module 1: POS & Thanh Toán Thông Minh (Tiền vào):**
+    *   *Mã QR Động (VietQR):* Tự sinh mã theo từng đơn hàng, tiền báo có tức thì, ngăn chặn hoàn toàn gian lận "chụp màn hình giả" (Bill fake).
+    *   *Chế độ Offline-first:* Đảm bảo bán hàng, in bill liên tục cả khi mất mạng internet.
+    *   *E-Invoice:* Tự động phát hành hóa đơn điện tử theo Nghị định 123 ngay trên máy POS.
+
+*   **Module 2: Kho & Hàng Hóa Thực Dụng (Hàng đi):**
+    *   *Recipe đa cấp (F&B):* Tự động trừ kho nguyên liệu (trà, sữa, ly, ống hút) định lượng chính xác từng mililit/gram.
+    *   *Kiểm kê mù (Blind Count):* Nhân viên buộc phải đếm thực tế khi giao ca mà không biết số tồn máy. Chênh lệch sẽ hiện ra ngay lập tức -> Chống thất thoát 99%.
+    *   *Cảnh báo nhập hàng:* Dùng thuật toán dự báo để nhắc chủ quán nhập hàng trước khi hết, tránh đứt gãy kinh doanh.
+
+*   **Module 3: Loyalty & Chăm Sóc Khách Hàng (Giữ khách):**
+    *   *Mini CRM:* Lưu trữ lịch sử mua hàng, thói quen và ngày sinh nhật khách hàng.
+    *   *Tích điểm & Hạng thành viên:* Hệ thống tích điểm tự động không cần thẻ cứng, giúp giữ chân khách hàng cũ (Retention).
+    *   *Marketing tự động:* Gửi tin nhắn ZNS/SMS chúc mừng sinh nhật hoặc ưu đãi để kéo khách quay lại.
+
+*   **Module 4: Tài Chính & Quản Trị (Lãi thực):**
+    *   *P&L Real-time:* Báo cáo Lãi/Lỗ ước tính ngay sau mỗi ca làm việc (thay vì đợi cuối tháng).
+    *   *Sổ quỹ 2 lớp:* Tách biệt rạch ròi tiền doanh thu và ví riêng của chủ cửa hàng.
+    *   *Quản trị nhân sự:* Chấm công bằng khuôn mặt/vân tay ngay trên POS và tính lương tự động.
 
 #### 2.2. Chiến Lược Go-To-Market: Vũ Khí "Hoa Hồng Trọn Đời"
 
