@@ -247,17 +247,17 @@ Ngoài áp lực pháp lý, các mô hình F&B và Bán lẻ quy mô vừa và n
 
 #### 1.3. Phân Tích Đối Thủ Cạnh Tranh & Khoảng Trống Thị Trường
 
-Thị trường hiện nay đang tồn tại một khoảng trống lớn giữa các phần mềm bán hàng đơn giản và các hệ thống quản trị cồng kềnh. Giải pháp của tôi sinh ra để lấp đầy khoảng trống đó.
+Thị trường hiện nay không thiếu các công cụ bán hàng, nhưng đang tồn tại một khoảng trống thực tế: **Sự cân bằng giữa tính đơn giản và khả năng quản trị chuyên sâu.** Dự án này không định vị là "tốt hơn" mọi đối thủ, mà là **"khác biệt"** ở cách tiếp cận vấn đề của chủ cửa hàng.
 
-| Tiêu chí so sánh | POS Phổ thông (KiotViet, Sapo, iPOS) | Hệ thống ERP/Kế toán (SAP, MISA, Oracle) | Giải pháp Đề xuất (**Hệ thống quản lý cho F&B & Retail**) |
-| :--- | :--- | :--- | :--- |
-| **Triết lý sản phẩm** | **Ghi nhận giao dịch**. Tập trung vào tốc độ thanh toán tại quầy. | **Tuân thủ & Đối soát**. Tập trung vào quy trình kế toán chuẩn mực. | **Kiểm soát & Tối ưu**. Tập trung vào bảo vệ dòng tiền và cảnh báo thất thoát của chủ cửa hàng. |
-| **Năng lực quản trị** | Sơ sài. Chỉ có báo cáo doanh thu cơ bản, thiếu chiều sâu về P&L và định mức thực tế. | Rất sâu. Nhưng đòi hỏi nhân sự trình độ cao để vận hành, quy trình cực kỳ phức tạp. | **Sâu & Tinh gọn**. Mang nghiệp vụ ERP (quản lý tồn kho đa cấp, P&L thời gian thực) vào giao diện cảm ứng dễ dùng. |
-| **Chi phí & Triển khai** | Rẻ (3-5 triệu/năm). Triển khai trong vài giờ. | Rất đắt (hàng trăm triệu). Triển khai kéo dài từ 3-6 tháng. | **Vừa phải & Linh hoạt**. Chi phí dễ tiếp cận cho hộ kinh doanh nhưng mang lại giá trị của hệ thống cao cấp. |
-| **Độ tin cậy dữ liệu** | Thấp. Dễ thất thoát do thiếu cơ chế đối soát dòng tiền chặt chẽ. | Rất cao. Nhưng đòi hỏi quy trình nhập liệu tài chính khắt khe. | **Tin cậy & Thực tế**. Áp dụng cơ chế "Kiểm kê mù" đơn giản để ngăn chặn gian lận mà không cần quy trình phức tạp. |
-| **Khả năng Offline** | Phụ thuộc internet. Mất mạng dễ gây gián đoạn vận hành. | Yêu cầu kết nối ổn định hoặc hạ tầng riêng biệt. | **Offline-first**. Luôn hoạt động ổn định kể cả khi mất mạng, tự động đồng bộ khi có internet. |
+| Tiêu chí so sánh | POS Phổ thông (KiotViet, Sapo, iPOS) | Giải pháp Đề xuất (**Hệ thống POS Tinh gọn**) |
+| :--- | :--- | :--- |
+| **Đối tượng phù hợp** | Các tạp hóa, siêu thị lớn cần quản lý hàng vạn mã hàng. | **Chủ quán F&B/Retail vừa & nhỏ** cần sự tinh gọn và minh bạch tuyệt đối. |
+| **Triết lý sản phẩm** | **Ghi nhận giao dịch**. Tập trung vào tốc độ thanh toán. | **Kiểm soát & Tái đầu tư**. Tập trung vào bảo vệ dòng tiền và cảnh báo thất thoát. |
+| **Trải nghiệm chủ quán** | Có thể trở nên phức tạp với quá nhiều tính năng thừa. | **Đơn giản hóa tối đa**. Dành cho những người "sợ phức tạp" nhưng lại "sợ thất thoát". |
+| **Độ tin cậy dữ liệu** | Dễ sai lệch nếu không có quy trình đối soát chặt chẽ. | **Cơ chế đối soát tự động**. Áp dụng "Kiểm kê mù" để ngăn chặn gian lận ngay từ đầu. |
 
-> **Nhận định chiến lược**: Mục tiêu của tôi là rút kết những nghiệp vụ quản trị thực tế nhất để đưa vào một giao diện **đơn giản cho người dùng cuối**. Lean ERP không phải là một hệ thống nặng nề, mà là một **trợ lý quản lý hàng hóa và tài chính** tinh gọn cho chủ cửa hàng trên đa nền tảng (Mobile, Tablet, Máy tính).
+> **Nhận định chiến lược:** Thay vì cạnh tranh trực diện với KiotViet ở phân khúc bán lẻ đại trà, chúng ta tập trung vào nhóm khách hàng đang cảm thấy hệ thống cũ quá cồng kềnh hoặc không giải quyết được bài toán thất thoát tài chính. Mục tiêu là trở thành một **trợ lý quản lý hàng hóa và tài chính** tinh gọn, thực tế và dễ dùng nhất.
+
 
 #### 1.4. Đối tượng Khách hàng Mục tiêu
 
@@ -348,6 +348,8 @@ Trong kỷ nguyên AI, tôi xây dựng một đội ngũ nhỏ nhưng có sức
 | **Background Jobs** | **Sidekiq** | Tiêu chuẩn công nghiệp cho xử lý hàng đợi hiệu năng cao trên nền Redis. |
 | **Mobile App** | **Native (Swift/Kotlin)** | Đảm bảo hiệu năng và độ tin cậy tối đa cho các tác vụ quan trọng như In ấn, Bluetooth. |
 | **Frontend Web** | **ReactJS + Vite** | Tối ưu hóa tốc độ tải trang và render báo cáo lớn. |
+
++> **Thông điệp cho nhà đầu tư:** Hệ thống được xây dựng trên **kiến trúc Micro-modular**, cho phép mở rộng quy mô lên đến **100.000 người dùng** với chi phí hạ tầng tối thiểu nhờ khả năng tối ưu hóa tài nguyên cực tốt của Golang và Docker.
 
 ---
 
