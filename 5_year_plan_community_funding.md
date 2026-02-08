@@ -71,19 +71,18 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 **🔸 Founder 1: 51.000.000đ - 199.000.000đ**
 
 - ✅ Tất cả quyền lợi Partner.
-- ✅ **Hoa hồng trọn đời: 32%**.
+- ✅ **Hoa hồng trọn đời: 30%**.
 - ✅ **License chuyển nhượng:** Tặng theo cơ chế **1 account/15 triệu** (Tối thiểu 3 Acc).
-- ✅ Tặng gói Setup & Đào tạo tận nơi (trị giá 5 triệu).
 - ✅ Chứng nhận "Founding Member" bản cứng đóng khung.
 
-**🔸 Founder 3: 200.000.000đ trở lên**
+**🔸 Founder 2: 200.000.000đ trở lên**
 
 - ✅ Tham gia **Ban cố vấn (Advisory Board)** - Họp chiến lược 6 tháng/lần.
-- ✅ Ăn tối thân mật cùng Founder & Team mỗi năm 1 lần.
-- ✅ **Hoa hồng trọn đời: 34%**.
+- ✅ **Hoa hồng trọn đời: 33%**.
 - ✅ **License chuyển nhượng:** Tặng theo cơ chế **1 account/15 triệu** (Tối thiểu 13 Acc).
 - ✅ **Quyền phủ quyết** (Veto) đối với một số thay đổi tính năng cốt lõi.
 - ✅ Ưu đãi đặc quyền khi mua thêm cổ phần vòng sau (chiết khấu 5-10%).
+- ✅ Ăn tối thân mật cùng Founder & Team mỗi năm 1 lần.
 
 ---
 
@@ -198,7 +197,7 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 
 #### Chiến lược Exit:
 
-- **Phương án 1: M&A** - Bán cho tập đoàn lớn (FPT, VNG, Momo, VinGroup)
+- **Phương án 1: M&A** - Bán cho tập đoàn lớn
   - Định giá dự kiến: **55 - 85 tỷ VNĐ** (P/E 2.5x - 3x)
   - Giá trị cổ phần 40%: **22 - 34 tỷ VNĐ**
   - **Lợi nhuận kỳ vọng: Gấp 11 - 17 lần số vốn góp ban đầu**
