@@ -220,6 +220,30 @@
           overflow-x: auto;
         }
       }
+
+      .nav-btn {
+        padding: 0.8rem 1.5rem;
+        border: none;
+        background: white;
+        color: var(--text-muted);
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.2s;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        border: 1px solid var(--border-color);
+      }
+
+      .nav-btn.active {
+        background: var(--accent-secondary);
+        color: white;
+        border-color: var(--accent-secondary);
+      }
+
+      .nav-btn:hover:not(.active) {
+        background: #f1f5f9;
+        color: var(--text-main);
+      }
     </style>
   </head>
 
@@ -234,6 +258,11 @@
           Chiến lược chiếm lĩnh thị trường F&B, Retail & Services dựa trên nền
           tảng công nghệ tinh gọn.
         </p>
+
+        <nav style="margin-top: 2rem; display: flex; justify-content: center; gap: 1rem;">
+          <button onclick="loadContent('report')" id="btn-report" class="nav-btn active">Hồ Sơ Dự Án</button>
+          <button onclick="loadContent('plan')" id="btn-plan" class="nav-btn">Kế Hoạch 5 Năm & Gọi Vốn</button>
+        </nav>
       </header>
       <div id="content">Đang tải báo cáo...</div>
     </div>
@@ -509,50 +538,78 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        // Use marked.setOptions for older version compatibility if needed
         marked.setOptions({
           gfm: true,
           tables: true,
           breaks: true,
         });
 
-        const source = document.getElementById("markdown-source").textContent;
-        // Decode potential HTML entities
-        const div = document.createElement("div");
-        div.innerHTML = source;
-        let decodedMarkdown = div.textContent;
+      // Mapping sources
+      const sources = {
+        report: document.getElementById("markdown-source").textContent,
+        plan: null // Will fetch from file
+      };
 
-        // Dedent logic to fix indentation issues
-        const lines = decodedMarkdown.split('\n');
-        let minIndent = null;
+      window.loadContent = async function(type) {
+        const contentDiv = document.getElementById("content");
+        const btnReport = document.getElementById("btn-report");
+        const btnPlan = document.getElementById("btn-plan");
 
-        // Find minimum indentation of non-empty lines
-        for (const line of lines) {
-            if (line.trim().length > 0) {
-                const match = line.match(/^([ \t]*)/);
-                const indent = match ? match[0].length : 0;
-                if (minIndent === null || indent < minIndent) {
-                    minIndent = indent;
+        // Update UI state
+        contentDiv.classList.remove("visible");
+        contentDiv.style.opacity = 0;
+
+        if (type === 'report') {
+            btnReport.classList.add("active");
+            btnPlan.classList.remove("active");
+            processMarkdown(sources.report);
+        } else {
+            btnReport.classList.remove("active");
+            btnPlan.classList.add("active");
+
+            try {
+                if (!sources.plan) {
+                    const response = await fetch('./plan.md');
+                    if (!response.ok) throw new Error('Không tìm thấy file plan.md');
+                    sources.plan = await response.text();
                 }
+                processMarkdown(sources.plan);
+            } catch (error) {
+                contentDiv.innerHTML = `<p style="text-align:center; color:red">Lỗi tải dữ liệu: ${error.message}</p>`;
+                contentDiv.style.opacity = 1;
+                contentDiv.classList.add("visible");
             }
         }
+      }
 
-        // Apply dedent
-        if (minIndent !== null && minIndent > 0) {
-            decodedMarkdown = lines.map(line => {
-                return line.length >= minIndent ? line.substring(minIndent) : line;
-            }).join('\n');
-        }
+      function processMarkdown(markdownText) {
+          const contentDiv = document.getElementById("content");
 
-        decodedMarkdown = decodedMarkdown.trim();
+          // Dedent logic to fix indentation issues if served from script tag
+          const lines = markdownText.split('\n');
+          let minIndent = null;
+          for (const line of lines) {
+              if (line.trim().length > 0) {
+                  const match = line.match(/^([ \t]*)/);
+                  const indent = match ? match[0].length : 0;
+                  if (minIndent === null || indent < minIndent) {
+                      minIndent = indent;
+                  }
+              }
+          }
+          if (minIndent !== null && minIndent > 0) {
+              markdownText = lines.map(line => line.length >= minIndent ? line.substring(minIndent) : line).join('\n');
+          }
 
-        const html = marked.parse(decodedMarkdown);
-        const contentDiv = document.getElementById("content");
-        contentDiv.innerHTML = html;
+          const html = marked.parse(markdownText.trim());
+          contentDiv.innerHTML = html;
 
-        setTimeout(() => {
-          contentDiv.classList.add("visible");
-        }, 100);
+          setTimeout(() => {
+            contentDiv.classList.add("visible");
+            contentDiv.style.opacity = 1;
+            contentDiv.style.transform = 'translateY(0)';
+          }, 100);
+      }
       });
     </script>
   </body>
