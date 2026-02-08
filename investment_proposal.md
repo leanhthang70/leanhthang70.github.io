@@ -1,4 +1,4 @@
-# Hồ Sơ Đầu Tư: Hệ Thống Quản Trị POS Đa Ngành & Giải Pháp Chống Thất Thoát
+# Hồ Sơ Đầu Tư: Hệ Thống Quản Trị Mini ERP Đa Ngành & Giải Pháp Chống Thất Thoát
 
 > **Chiến lược chiếm lĩnh thị trường F&B, Retail & Services dựa trên nền tảng công nghệ tinh gọn.**
 
@@ -15,7 +15,7 @@ Thị trường Thực phẩm và Đồ uống (F&B) và Bán lẻ tiêu dùng t
   - **Nghị định 123/2020/NĐ-CP & Thông tư 78:** Quy định bắt buộc triển khai "Hóa đơn điện tử khởi tạo từ máy tính tiền". Ngành thuế đang siết chặt lộ trình này với mục tiêu 100% hộ kinh doanh nộp thuế kê khai vào năm 2025.
   - **Thanh toán không tiền mặt:** Theo **NAPAS**, giao dịch qua VietQR tăng trưởng >100%/năm, buộc các chủ cửa hàng phải trang bị hệ thống đối soát tự động nếu không muốn thất thoát.
 
-> **Cơ hội:** Khoảng cách giữa quy mô 5 triệu hộ và số lượng đã chuyển đổi số thực sự còn rất lớn. Đây là "đại dương xanh" cho các giải pháp POS tinh gọn, tập trung vào tuân thủ thuế và minh bạch dòng tiền.
+> **Cơ hội:** Khoảng cách giữa quy mô 5 triệu hộ và số lượng đã chuyển đổi số thực sự còn rất lớn. Đây là "đại dương xanh" cho các giải pháp Mini ERP tinh gọn, tập trung vào tuân thủ thuế và minh bạch dòng tiền.
 
 #### 1.2. Thách Thức Trong Quản Trị Vận Hành
 
@@ -29,7 +29,7 @@ Ngoài áp lực pháp lý, các mô hình F&B và Bán lẻ quy mô vừa và n
 
 Thị trường hiện nay không thiếu các công cụ bán hàng, nhưng đang tồn tại một khoảng trống thực tế: **Sự cân bằng giữa tính đơn giản và khả năng quản trị chuyên sâu.** Dự án này không định vị là "tốt hơn" mọi đối thủ, mà là **"khác biệt"** ở cách tiếp cận vấn đề của chủ cửa hàng.
 
-| Tiêu chí so sánh         | POS Phổ thông (KiotViet, Sapo, iPOS)                     | Giải pháp Đề xuất (**Hệ thống POS**)                                                      |
+| Tiêu chí so sánh         | POS Phổ thông (KiotViet, Sapo, iPOS)                     | Giải pháp Đề xuất (**Hệ thống Mini ERP**)                                                 |
 | :----------------------- | :------------------------------------------------------- | :---------------------------------------------------------------------------------------- |
 | **Đối tượng phù hợp**    | Các tạp hóa, siêu thị lớn cần quản lý hàng vạn mã hàng.  | **Chủ quán F&B, Bán lẻ & Dịch vụ (Giặt ủi, Spa)** cần sự tinh gọn và minh bạch tuyệt đối. |
 | **Triết lý sản phẩm**    | **Ghi nhận giao dịch**. Tập trung vào tốc độ thanh toán. | **Kiểm soát & Tái đầu tư**. Tập trung vào bảo vệ dòng tiền và cảnh báo thất thoát.        |
@@ -54,22 +54,22 @@ Thị trường hiện nay không thiếu các công cụ bán hàng, nhưng đa
   - **Đặc điểm:** Những chủ quán đang sử dụng các nền tảng phổ thông nhưng đang tìm kiếm các giải pháp tối ưu hơn để giải quyết những bài toán đặc thù mà hệ thống hiện tại chưa làm hài lòng hoàn toàn, đặc biệt là nhu cầu đối soát dữ liệu chặt chẽ và báo cáo tài chính (Lãi/Lỗ) chuyên sâu.
   - **Lý do chọn giải pháp:** Các tính năng bảo vệ dòng tiền chuyên sâu như **Kiểm kê mù**, **Recipe đa cấp** và **Theo dõi trạng thái dịch vụ**. Đặc biệt, chúng ta hỗ trợ **di trú dữ liệu miễn phí từ hệ thống cũ**, giúp việc chuyển đổi không gây gián đoạn kinh doanh.
 
-> **Chiến lược thị trường**: Dự án áp dụng cách tiếp cận linh hoạt, phủ rộng cả hai nhóm khách hàng. Mục tiêu là khai thác tối đa quy mô thị trường hộ kinh doanh đang bùng nổ, bất kể đó là khách hàng mới bắt đầu hay khách hàng đang tìm kiếm một giải pháp quản trị sâu sắc hơn để thay thế hệ thống cũ.
+> **Chiến lược thị trường**: Dự án áp dụng cách tiếp cận linh hoạt, phủ rộng cả hai nhóm khách hàng. Mục tiêu là khai thác tối đa quy mô thị trường hộ kinh doanh đang bùng nổ, bất kể đó là khách hàng mới bắt đầu hay khách hàng đang tìm kiếm một giải pháp quản trị sâu sắc hơn (ERP) để thay thế hệ thống cũ.
 
 ---
 
 ### 2. Chiến Lược Sản Phẩm: Tập Trung Vào Sự Tinh Túy Và Đơn Giản
 
-Toàn bộ hệ thống được xây dựng trên triết lý **"Phức tạp để bên trong, đơn giản cho người dùng"**. Tôi tập trung vào việc quản lý hàng hóa và dòng tiền một cách thực chất nhất.
+Toàn bộ hệ thống được xây dựng trên triết lý **"Phức tạp để bên trong, đơn giản cho người dùng"**. Không chỉ là máy bán hàng (POS), đây là một hệ thống **Mini ERP** (Enterprise Resource Planning) thu nhỏ, giúp quản lý hàng hóa và dòng tiền một cách thực chất nhất.
 
 #### 2.1. Các Module Trọng Tâm
 
 Sản phẩm được thiết kế theo kiến trúc **Micro-modular** giải quyết 4 bài toán cốt lõi: **Tiền - Hàng - Khách - Lãi**.
 
-- **Module 1: POS & Thanh Toán Thông Minh (Tiền vào):**
+- **Module 1: Bán Hàng & Thanh Toán Thông Minh (Tiền vào):**
   - _Mã QR Động (VietQR):_ Tự sinh mã theo từng đơn hàng, tiền báo có tức thì, ngăn chặn hoàn toàn gian lận "chụp màn hình giả" (Bill fake).
   - _Chế độ Offline-first:_ Đảm bảo bán hàng, in bill liên tục cả khi mất mạng internet.
-  - _E-Invoice:_ Tự động phát hành hóa đơn điện tử theo Nghị định 123 ngay trên máy POS.
+  - _E-Invoice:_ Tự động phát hành hóa đơn điện tử theo Nghị định 123 ngay trên thiết bị bán hàng.
 
 - **Module 2: Kho & Hàng Hóa/Dịch Vụ Thực Dụng (Hàng đi - Trạng thái):**
   - _Recipe đa cấp (F&B):_ Tự động trừ kho nguyên liệu (trà, sữa, ly, ống hút) định lượng chính xác từng mililit/gram.
@@ -85,7 +85,7 @@ Sản phẩm được thiết kế theo kiến trúc **Micro-modular** giải qu
 - **Module 4: Tài Chính & Quản Trị (Lãi thực):**
   - _P&L Real-time:_ Báo cáo Lãi/Lỗ ước tính ngay sau mỗi ca làm việc (thay vì đợi cuối tháng).
   - _Sổ quỹ 2 lớp:_ Tách biệt rạch ròi tiền doanh thu và ví riêng của chủ cửa hàng.
-  - _Quản trị nhân sự:_ Chấm công bằng khuôn mặt/vân tay ngay trên POS và tính lương tự động.
+  - _Quản trị nhân sự:_ Chấm công bằng khuôn mặt/vân tay ngay trên thiết bị bán hàng và tính lương tự động.
 
 #### 2.2. Chiến Lược GTM (Go-To-Market) & Hệ Sinh Thái Sale
 
@@ -226,7 +226,7 @@ Sau khi đạt điểm hòa vốn vào cuối năm thứ 1, năm thứ 2 sẽ l�
   - **B2B Supply Chain (10%):** Doanh thu từ việc kết nối hệ thống cung ứng nguyên liệu.
 - **Chiến lược Tăng trưởng mạnh (Scaling Strategy):**
   - **Tập trung vào Retention:** Nâng cao chất lượng dịch vụ để giữ chân 1.500 khách hàng cũ và chuyển đổi 1.500 - 3.500 khách hàng mới.
-  - **Số hóa toàn diện:** Khách hàng dùng POS làm công cụ quản lý trung tâm cho mọi hoạt động từ bán hàng đến đối soát.
+  - **Số hóa toàn diện:** Khách hàng dùng Mini ERP làm công cụ quản lý trung tâm cho mọi hoạt động từ bán hàng đến đối soát.
 - **Tốc độ Phát triển & R&D:** Duy trì **01 phiên bản cập nhật mới mỗi 02 tuần** để liên tục tối ưu hóa trải nghiệm người dùng dựa trên phản hồi thực tế.
 - **Hiệu quả tài chính:** Biên lợi nhuận ròng (Net Margin) kỳ vọng đạt **40% - 50%**.
 
@@ -252,7 +252,7 @@ Cấu trúc cổ phần được thiết kế để **tối ưu hóa sự cam k�
 
 ### 5. Cam Kết Giá Trị & Hợp Tác Chiến Lược
 
-Dự án POS được xây dựng để trở thành **cơ sở hạ tầng quản trị** tinh gọn và hiệu quả nhất cho các hộ kinh doanh hiện đại. Giải pháp của chúng tôi tập trung vào việc biến dữ liệu vận hành thành lợi nhuận thực tế thông qua các cơ chế kiểm soát chống thất thoát triệt để.
+Dự án Mini ERP được xây dựng để trở thành **cơ sở hạ tầng quản trị** tinh gọn và hiệu quả nhất cho các hộ kinh doanh hiện đại. Giải pháp của chúng tôi tập trung vào việc biến dữ liệu vận hành thành lợi nhuận thực tế thông qua các cơ chế kiểm soát chống thất thoát triệt để.
 
 Với lộ trình 12 tháng quyết liệt cùng các cột mốc KPI định lượng rõ ràng, dự án không chỉ đảm bảo sự an toàn cho vốn đầu tư mà còn mở ra tiềm năng tăng trưởng đột phá trong những năm tiếp theo. Tôi tin rằng sự kết hợp giữa **Nguồn lực chiến lược** của Nhà đầu tư và **Năng lực thực thi** của đội ngũ phát triển sẽ tạo nên một vị thế dẫn đầu thị trường.
 

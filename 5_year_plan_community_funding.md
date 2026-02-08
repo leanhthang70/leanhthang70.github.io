@@ -1,6 +1,6 @@
-# Kế Hoạch Phát Triển 5 Năm & Chiến Lược Gọi Vốn Cộng Đồng
+# Kế Hoạch Phát Triển 5 Năm & Chiến Lược Gọi Vốn Cộng Đồng (Mini ERP)
 
-> **Huy động 2 tỷ VNĐ từ cộng đồng để sở hữu 40% dự án - Cùng xây dựng hệ sinh thái POS thế hệ mới**
+> **Huy động 2 tỷ VNĐ từ cộng đồng để sở hữu 40% dự án - Cùng xây dựng hệ sinh thái Mini ERP thế hệ mới**
 
 ---
 
@@ -95,7 +95,7 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 
 - 🎯 **1.500 khách hàng trả phí**
 - 🎯 Doanh thu: **1.8 - 2.2 tỷ VNĐ**
-- 🎯 Hoàn thiện 4 module cốt lõi (POS, Kho, Loyalty, Tài chính)
+- 🎯 Hoàn thiện 4 module cốt lõi (Bán hàng, Kho, Loyalty, Tài chính)
 
 #### Phân bổ ngân sách 2 tỷ:
 
@@ -148,7 +148,7 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 #### Chiến lược mở rộng:
 
 - Mở văn phòng chi nhánh tại 3 thành phố lớn (HCM, Hà Nội, Đà Nẵng)
-- Ra mắt **POS Hardware** riêng (Máy tính tiền tích hợp sẵn phần mềm)
+- Ra mắt **Mini ERP Hardware** riêng (Máy tính tiền tích hợp sẵn phần mềm quản trị)
 - Phát triển tính năng AI: Dự báo doanh thu, Tối ưu giá bán, Phát hiện gian lận
 - Kết nối với 5+ sàn TMĐT (Shopee, Lazada, TikTok Shop)
 
@@ -172,7 +172,7 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 - **Fintech:** Cho vay vốn lưu động cho chủ cửa hàng (Merchant Financing)
 - **B2B Marketplace:** Nền tảng kết nối nhà cung cấp - chủ cửa hàng
 - **Data Analytics:** Bán báo cáo phân tích thị trường cho nhà sản xuất/phân phối
-- **White-label:** Cung cấp giải pháp POS cho các thương hiệu lớn
+- **White-label:** Cung cấp giải pháp Mini ERP cho các thương hiệu lớn
 
 #### Cơ cấu doanh thu:
 
@@ -273,7 +273,7 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 | **Chứng khoán**             |              50-150% |    Cao     |          Cao           |
 | **Bất động sản**            |              80-120% | Trung bình |          Thấp          |
 | **Startup công nghệ**       |            300-1000% |  Rất cao   |        Rất thấp        |
-| **🚀 Dự án POS này**        |       **1100-1700%** |    Cao     | Thấp → Cao (sau 5 năm) |
+| **🚀 Dự án Mini ERP này**   |       **1100-1700%** |    Cao     | Thấp → Cao (sau 5 năm) |
 
 ---
 
@@ -360,9 +360,9 @@ Dành cho "Cá mập" muốn đi đường dài và có tiếng nói trong dự 
 
 ## 8. THÔNG TIN LIÊN HỆ
 
-📧 **Email:** investment@posproject.vn
+📧 **Email:** investment@minierp.vn
 📱 **Hotline:** 0123 456 789
-🌐 **Website:** https://posproject.vn/invest
+🌐 **Website:** https://minierp.vn/invest
 📍 **Địa chỉ:** [Địa chỉ văn phòng]
 
 ---
